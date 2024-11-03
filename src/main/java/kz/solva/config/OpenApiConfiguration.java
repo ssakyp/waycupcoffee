@@ -20,7 +20,7 @@ public class OpenApiConfiguration {
 
         Contact myContact = new Contact();
         myContact.setName("Sakyp Sultan");
-        myContact.setEmail("your.email@gmail.com");
+        myContact.setEmail("sultansakyp77@gmail.com");
 
         Info information = new Info()
                 .title("Solva Tech Task API")
