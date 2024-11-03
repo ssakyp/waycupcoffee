@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: coffee-machine-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/solva-coffee
+    username: solva-admin
+    password: solva-admin-123
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
